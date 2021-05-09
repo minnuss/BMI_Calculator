@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="inputs">
+            <div class="height">
+                <label class="height" for="height">Height</label>
+                <input type="number" id="height" placeholder="cm">
+            </div>
+            <div class="weight">
+                <label class="weight" for="weight">Weight</label>
+                <input type="number" id="weight" placeholder="kg">
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn calc">Calculate</button>
+            <button class="btn clear">Clear</button>
+        </div>
+        <div class="result">
+            <p>BMI = <strong>23.7kg/m2</strong></p>
+            <p class="color">Result: <span>Normal</span></p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
