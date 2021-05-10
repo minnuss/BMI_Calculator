@@ -39,6 +39,31 @@ body .container {
   padding: 20px;
 }
 
+body .container .person {
+  display: flex;
+  min-width: 15rem;
+  font-size: 1.6rem;
+}
+
+body .container .person label {
+  margin: 5px;
+}
+
+body .container .person input {
+  margin: 5px;
+  width: 30px;
+  outline: none;
+}
+
+body .container .person input[type='checkbox'] {
+  transform: scale(2) translateY(3px);
+}
+
+body .container .person .age {
+  font-size: 1.6rem;
+  width: 60px;
+}
+
 body .container .inputs {
   font-size: 1.6rem;
   font-weight: 600;
