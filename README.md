@@ -1,11 +1,12 @@
-# Expanding Cards
+# BMI Calculator
 
-TITLE - Expanding Cards
+TITLE - BMI Calculator
 
-About - Expanding card widget
+About - BMI Calculator with options to choose male or female and enter age.
 
 TECHNOLOGIES USED:
-- HTML5 
+
+- HTML5
 - Google Fonts
 - CSS3 with Sass
 - JavaScript
